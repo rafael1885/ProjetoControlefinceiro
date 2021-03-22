@@ -1,0 +1,15 @@
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinancerio.DAL.deps.json
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinancerio.DAL.runtimeconfig.json
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinancerio.DAL.runtimeconfig.dev.json
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinancerio.DAL.dll
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinancerio.DAL.pdb
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.dll
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\bin\Debug\netcoreapp3.1\ControleFinanceiro.BLL.pdb
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.csprojAssemblyReference.cache
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.AssemblyInfoInputs.cache
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.AssemblyInfo.cs
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.csproj.CopyComplete
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.dll
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.pdb
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinancerio.DAL\obj\Debug\netcoreapp3.1\ControleFinancerio.DAL.genruntimeconfig.cache
