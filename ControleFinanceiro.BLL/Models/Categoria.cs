@@ -18,6 +18,6 @@ namespace ControleFinanceiro.BLL.Models
 
 
         public virtual ICollection<Ganho> Ganhos { get; set; }
-        public object Icone { get; set; }
+        public string Icone { get; set; }
     }
 }

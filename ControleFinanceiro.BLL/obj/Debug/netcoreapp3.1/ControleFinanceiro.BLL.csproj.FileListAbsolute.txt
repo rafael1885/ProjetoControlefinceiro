@@ -6,3 +6,4 @@ C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\netcore
 C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.csproj.CoreCompileInputs.cache
 C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.dll
 C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.pdb
+C:\Users\Pin\Desktop\ControleFinanceiro\ControleFinanceiro.BLL\obj\Debug\netcoreapp3.1\ControleFinanceiro.BLL.csprojAssemblyReference.cache

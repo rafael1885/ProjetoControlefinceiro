@@ -11,21 +11,21 @@ namespace ControleFinancerio.DAL
 {
     public class Contexto : IdentityDbContext<Usuario, Funcao, string>
     {
-        public Dbset<Cartao> Cartoes { get; set; }
+        public DbSet<Cartao> Cartoes { get; set; }
 
-        public Dbset<Categoria> Categorias { get; set; }
+        public DbSet<Categoria> Categorias { get; set; }
 
-        public Dbset<Despesa> Despesas { get; set; }
+        public DbSet<Despesa> Despesas { get; set; }
 
-        public Dbset<Funcao> Funcoes { get; set; }
+        public DbSet<Funcao> Funcoes { get; set; }
 
-        public Dbset<Ganho> Ganhos { get; set; }
+        public DbSet<Ganho> Ganhos { get; set; }
 
-        public Dbset<Mes> Meses { get; set; }
+        public DbSet<Mes> Meses { get; set; }
 
-        public Dbset<Tipo> Tipos { get; set; }
+        public DbSet<Tipo> Tipos { get; set; }
 
-        public Dbset<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         public Contexto(DbContextOptions<Contexto> opcoes) : base(opcoes) { }
 

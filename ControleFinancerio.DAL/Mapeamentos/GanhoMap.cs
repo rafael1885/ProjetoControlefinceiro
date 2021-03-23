@@ -25,7 +25,7 @@ namespace ControleFinancerio.DAL.Mapeamentos
 
             builder.HasOne(g => g.Mes).WithMany(g => g.Ganhos).HasForeignKey(g => g.MesId).IsRequired();
 
-            builder.HasOne(g => g.Usuario).WithMany(g => g.Ganhos).HasForeignKey(g => g.UsuairoId).IsRequired();
+            builder.HasOne(g => g.Usuario).WithMany(g => g.Ganhos).HasForeignKey(g => g.Usuarioid).IsRequired();
 
             builder.ToTable("Ganhos");
 

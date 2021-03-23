@@ -25,8 +25,7 @@ namespace ControleFinanceiro.API
 
         public IConfiguration Configuration { get; }
 
-
-
+     
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoBD")));
