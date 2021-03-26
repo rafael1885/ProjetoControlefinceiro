@@ -28,7 +28,7 @@ namespace ControleFinanceiro.API
      
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoBD")));
+            services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer("Server = (localdb)\\mssqllocaldb; Database = GerenciadorFinanceiro;"));
 
             services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
 
