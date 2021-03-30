@@ -18,6 +18,8 @@ namespace ControleFinanceiro.API
 {
     public class Startup
     {
+
+       
         public Startup(IConfiguration configuration)
         {
             Configuration = Configuration;
@@ -25,8 +27,9 @@ namespace ControleFinanceiro.API
 
         public IConfiguration Configuration { get; }
 
-     
-        public void ConfigureServices(IServiceCollection services)
+
+
+           public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer("Server = (localdb)\\mssqllocaldb; Database = GerenciadorFinanceiro;"));
 
@@ -52,6 +55,7 @@ namespace ControleFinanceiro.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+          
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -59,15 +63,22 @@ namespace ControleFinanceiro.API
             app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             app.UseRouting();
             app.UseSpaStaticFiles();
+           
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
             app.UseSpa(spa =>
             {
                 spa.Options.SourcePath = Path.Combine(Directory.GetCurrentDirectory(), "ControleFinaceiro-UI");
                 if (env.IsDevelopment())
                 {
-                    spa.UseProxyToSpaDevelopmentServer($"http://localhost:4200/");
+                    spa.UseProxyToSpaDevelopmentServer($"http://localhost:44326/");
                 }
             });
+
+          
 
         }
     }
