@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4C8Q7Bub1aDMbVIT5IQYJwv9RFM1IFgKXd5GLhABEmx4vYrYbrsBQk68+VD+n99fCe+o1DaTpIrK+7vpkJT29g==",
+  "dgSpecHash": "3oteJo+XaimAT+DZZ9QiyYiqBge90Du83rMn9oQkGs71ZZ+FlyBnWK4dI5HPTZFkpkiZf5NdtNhz8pmY6n/AvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pin\\Desktop\\ControleFinanceiro\\ControleFinancerio.DAL\\ControleFinancerio.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Pin\\Desktop\\ControleFinanceiro_old\\ControleFinancerio.DAL\\ControleFinancerio.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Pin\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
